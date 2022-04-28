@@ -29,3 +29,18 @@ textarea {
   }
   
   /*# sourceMappingURL=styles.css.map */
+
+  /* Add animation */
+  @keyframes grow {
+    from {
+      font-size: 20px;
+    } to {
+      font-size: 50px;
+    }
+  }
+
+  h3 {
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
